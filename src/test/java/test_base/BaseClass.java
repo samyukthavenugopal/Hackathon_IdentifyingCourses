@@ -28,10 +28,12 @@ public Properties p;
 @BeforeTest
 @Parameters({"os","browser"})
 public void getDriver(String os, String browserChoice) throws IOException {
+	
 		//Loading property file
 		FileReader file=new FileReader(".//src//test//resources//config.properties");
 		p=new Properties();
 		p.load(file);
+		
 		//loading log4j file
 		logger= LogManager.getLogger(this.getClass());
 

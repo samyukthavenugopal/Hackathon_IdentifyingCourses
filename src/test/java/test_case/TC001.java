@@ -9,14 +9,14 @@ import test_base.BaseClass;
 public class TC001 extends BaseClass {
 	
 	@Test(priority=1)
-	public void searching() {
+	public void search_webDevelopment() {
 		Module1 m1=new Module1(driver);
 		m1.clicksearch();
 		logger.info("**** Search button is clicked and Web Development is Searched ****");
 	}
 	
 	@Test(priority=2)
-	public void clicking() {
+	public void select_english_and_beginner() {
 		Module1 m1=new Module1(driver);
 		m1.clickEng();
 		logger.info("**** English Checkbox is Selected ****");
@@ -25,7 +25,7 @@ public class TC001 extends BaseClass {
 	}
 	
 	 @Test(priority=3)
-	 public void course1() throws IOException {
+	 public void get_course1_details() throws IOException {
 		 Module1 m1=new Module1(driver);
 		 m1.clickCourse1();
 		 logger.info("**** 1st Course Card is Clicked ****");
@@ -34,7 +34,7 @@ public class TC001 extends BaseClass {
 	 }
 		
 	 @Test(priority=4)
-	 public void course2() throws IOException {
+	 public void get_course2_details() throws IOException {
 		 Module1 m1=new Module1(driver);
 		 m1.clickCourse2();
 		 logger.info("**** 2nd Course Card is Clicked ****");

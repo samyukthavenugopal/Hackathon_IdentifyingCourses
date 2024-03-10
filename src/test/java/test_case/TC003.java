@@ -9,7 +9,7 @@ import test_base.BaseClass;
 public class TC003  extends BaseClass{
 	
 	@Test(priority=1)
-		public void clickenterprises() {
+		public void click_enterprises() {
 			Module3 m3 = new Module3(driver) ;
 			m3.scrollcourse();
 			m3.clickenterprises();
@@ -17,7 +17,7 @@ public class TC003  extends BaseClass{
 		}
 	
 	@Test(priority=2)
-	public void clickoffer() {
+	public void click_offer() {
 		Module3 m3 = new Module3(driver) ;
 		m3.scrollwatch();
 		m3.clickoffer();
@@ -25,7 +25,7 @@ public class TC003  extends BaseClass{
 	}
 	
 	@Test(priority=3)
-	public void clickcourse() {
+	public void click_course() {
 		Module3 m3 = new Module3(driver) ;
 		m3.scrollcourse1();
 		m3.clickcourse();
@@ -33,7 +33,7 @@ public class TC003  extends BaseClass{
 	}
 	
 	@Test(priority=4)
-	public void fillForm() {
+	public void fill_form() {
 		Module3_1 m3 = new Module3_1(driver) ;
 		m3.scrollform();
 		m3.firstname();

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-07T12:22:09 IST" name="Suite" finished-at="2024-03-07T12:23:42 IST" duration-ms="93059">
+  <suite started-at="2024-03-10T16:17:46 IST" name="Suite" finished-at="2024-03-10T16:20:26 IST" duration-ms="160171">
     <groups>
     </groups>
-    <test started-at="2024-03-07T12:22:09 IST" name="Test" finished-at="2024-03-07T12:23:42 IST" duration-ms="93059">
+    <test started-at="2024-03-10T16:17:46 IST" name="Test" finished-at="2024-03-10T16:20:26 IST" duration-ms="160171">
       <class name="test_case.TC001">
-        <test-method is-config="true" signature="getDriver(java.lang.String,java.lang.String)[pri:0, instance:test_case.TC001@7ae0a9ec]" started-at="2024-03-07T12:22:10 IST" name="getDriver" finished-at="2024-03-07T12:22:42 IST" duration-ms="31693" status="PASS">
+        <test-method is-config="true" signature="getDriver(java.lang.String,java.lang.String)[pri:0, instance:test_case.TC001@2a693f59]" started-at="2024-03-10T16:17:47 IST" name="getDriver" finished-at="2024-03-10T16:18:14 IST" duration-ms="27600" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,27 +23,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method signature="searching()[pri:1, instance:test_case.TC001@7ae0a9ec]" started-at="2024-03-07T12:22:42 IST" name="searching" finished-at="2024-03-07T12:23:01 IST" duration-ms="18532" status="PASS">
+        <test-method signature="searching()[pri:1, instance:test_case.TC001@2a693f59]" started-at="2024-03-10T16:18:15 IST" name="searching" finished-at="2024-03-10T16:18:28 IST" duration-ms="13641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searching -->
-        <test-method signature="clicking()[pri:2, instance:test_case.TC001@7ae0a9ec]" started-at="2024-03-07T12:23:01 IST" name="clicking" finished-at="2024-03-07T12:23:04 IST" duration-ms="3126" status="PASS">
+        <test-method signature="clicking()[pri:2, instance:test_case.TC001@2a693f59]" started-at="2024-03-10T16:18:29 IST" name="clicking" finished-at="2024-03-10T16:18:30 IST" duration-ms="1096" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicking -->
-        <test-method signature="course1()[pri:3, instance:test_case.TC001@7ae0a9ec]" started-at="2024-03-07T12:23:05 IST" name="course1" finished-at="2024-03-07T12:23:23 IST" duration-ms="18329" status="PASS">
+        <test-method signature="course1()[pri:3, instance:test_case.TC001@2a693f59]" started-at="2024-03-10T16:18:30 IST" name="course1" finished-at="2024-03-10T16:18:48 IST" duration-ms="17421" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- course1 -->
-        <test-method signature="course2()[pri:4, instance:test_case.TC001@7ae0a9ec]" started-at="2024-03-07T12:23:24 IST" name="course2" finished-at="2024-03-07T12:23:40 IST" duration-ms="16437" status="PASS">
+        <test-method signature="course2()[pri:4, instance:test_case.TC001@2a693f59]" started-at="2024-03-10T16:18:49 IST" name="course2" finished-at="2024-03-10T16:19:06 IST" duration-ms="17388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- course2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_case.TC001@7ae0a9ec]" started-at="2024-03-07T12:23:41 IST" name="tearDown" finished-at="2024-03-07T12:23:42 IST" duration-ms="1663" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_case.TC001@2a693f59]" started-at="2024-03-10T16:20:24 IST" name="tearDown" finished-at="2024-03-10T16:20:26 IST" duration-ms="1602" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test_case.TC001 -->
+      <class name="test_case.TC003">
+        <test-method signature="clickenterprises()[pri:1, instance:test_case.TC003@4c163e3]" started-at="2024-03-10T16:19:38 IST" name="clickenterprises" finished-at="2024-03-10T16:19:51 IST" duration-ms="13753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickenterprises -->
+        <test-method signature="clickoffer()[pri:2, instance:test_case.TC003@4c163e3]" started-at="2024-03-10T16:19:53 IST" name="clickoffer" finished-at="2024-03-10T16:20:00 IST" duration-ms="6837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickoffer -->
+        <test-method signature="clickcourse()[pri:3, instance:test_case.TC003@4c163e3]" started-at="2024-03-10T16:20:01 IST" name="clickcourse" finished-at="2024-03-10T16:20:11 IST" duration-ms="10409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickcourse -->
+        <test-method signature="fillForm()[pri:4, instance:test_case.TC003@4c163e3]" started-at="2024-03-10T16:20:13 IST" name="fillForm" finished-at="2024-03-10T16:20:24 IST" duration-ms="10837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm -->
+      </class> <!-- test_case.TC003 -->
+      <class name="test_case.TC002">
+        <test-method signature="searching()[pri:1, instance:test_case.TC002@52f27fbd]" started-at="2024-03-10T16:19:07 IST" name="searching" finished-at="2024-03-10T16:19:26 IST" duration-ms="19347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searching -->
+        <test-method signature="getLangLvl()[pri:2, instance:test_case.TC002@52f27fbd]" started-at="2024-03-10T16:19:27 IST" name="getLangLvl" finished-at="2024-03-10T16:19:37 IST" duration-ms="10282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLangLvl -->
+      </class> <!-- test_case.TC002 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

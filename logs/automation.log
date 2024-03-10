@@ -378,3 +378,158 @@
 16:15:19.275 [main] INFO  Factory.CucumberBaseClass - **** List of Languages and their Count is Printed ****
 16:15:19.488 [main] INFO  Factory.CucumberBaseClass - **** Language box is Closed ****
 16:15:20.255 [main] INFO  Factory.CucumberBaseClass - **** List of Levels and their Count is Printed ****
+16:28:40.341 [main] INFO  test_case.TC001 - **** Search button is clicked and Web Development is Searched ****
+16:28:41.683 [main] INFO  test_case.TC001 - **** English Checkbox is Selected ****
+16:28:44.376 [main] INFO  test_case.TC001 - **** Beginner Checkbox is Selected ****
+16:28:46.161 [main] INFO  test_case.TC001 - **** 1st Course Card is Clicked ****
+16:28:56.131 [main] INFO  test_case.TC001 - **** Title, Rating and Duration of 1st Course is Printed ****
+16:28:56.947 [main] INFO  test_case.TC001 - **** 2nd Course Card is Clicked ****
+16:29:08.696 [main] INFO  test_case.TC001 - **** Title, Rating and Duration of 2nd Course is Printed ****
+16:29:16.060 [main] INFO  test_case.TC001 - **** Navigated to Main Page ****
+16:29:16.372 [main] INFO  test_case.TC001 - **** Search Bar is Clicked  ****
+16:29:23.607 [main] INFO  test_case.TC001 - **** Language Learning is Searched ****
+16:29:25.175 [main] INFO  test_case.TC001 - **** SeeMore is Clicked ****
+16:29:27.941 [main] INFO  test_case.TC001 - **** List of Languages and their Count is Printed ****
+16:29:28.104 [main] INFO  test_case.TC001 - **** Language box is Closed ****
+16:29:28.494 [main] INFO  test_case.TC001 - **** List of Levels and their Count is Printed ****
+16:29:40.352 [main] INFO  test_case.TC001 - **** For Enterprises is Clicked ****
+16:29:46.714 [main] INFO  test_case.TC001 - **** Click Offer is Clicked ****
+16:29:52.767 [main] INFO  test_case.TC001 - **** Course is Clicked ****
+16:29:58.817 [main] INFO  test_case.TC001 - **** Form is Submitted Successfully ****
+16:30:01.690 [main] INFO  test_case.TC001 - **** Error Message is Printed ****
+16:44:06.241 [main] INFO  test_case.TC001 - **** Search button is clicked and Web Development is Searched ****
+16:44:07.165 [main] INFO  test_case.TC001 - **** English Checkbox is Selected ****
+16:44:07.569 [main] INFO  test_case.TC001 - **** Beginner Checkbox is Selected ****
+16:44:09.604 [main] INFO  test_case.TC001 - **** 1st Course Card is Clicked ****
+16:44:21.155 [main] INFO  test_case.TC001 - **** Title, Rating and Duration of 1st Course is Printed ****
+16:44:22.090 [main] INFO  test_case.TC001 - **** 2nd Course Card is Clicked ****
+16:44:31.874 [main] INFO  test_case.TC001 - **** Title, Rating and Duration of 2nd Course is Printed ****
+16:44:40.547 [main] INFO  test_case.TC001 - **** Navigated to Main Page ****
+16:44:41.070 [main] INFO  test_case.TC001 - **** Search Bar is Clicked  ****
+16:44:48.172 [main] INFO  test_case.TC001 - **** Language Learning is Searched ****
+16:44:49.974 [main] INFO  test_case.TC001 - **** SeeMore is Clicked ****
+16:44:52.947 [main] INFO  test_case.TC001 - **** List of Languages and their Count is Printed ****
+16:44:53.187 [main] INFO  test_case.TC001 - **** Language box is Closed ****
+16:44:53.747 [main] INFO  test_case.TC001 - **** List of Levels and their Count is Printed ****
+16:45:03.892 [main] INFO  test_case.TC001 - **** For Enterprises is Clicked ****
+16:45:10.854 [main] INFO  test_case.TC001 - **** Click Offer is Clicked ****
+16:45:22.072 [main] INFO  test_case.TC001 - **** Course is Clicked ****
+16:45:27.820 [main] INFO  test_case.TC001 - **** Form is Submitted Successfully ****
+16:45:31.786 [main] INFO  test_case.TC001 - **** Error Message is Printed ****
+22:25:31.932 [main] INFO  test_case.TC001 - **** Search button is clicked and Web Development is Searched ****
+22:25:34.086 [main] INFO  test_case.TC001 - **** English Checkbox is Selected ****
+22:25:34.629 [main] INFO  test_case.TC001 - **** Beginner Checkbox is Selected ****
+22:25:36.991 [main] INFO  test_case.TC001 - **** 1st Course Card is Clicked ****
+22:25:55.100 [main] INFO  test_case.TC001 - **** Title, Rating and Duration of 1st Course is Printed ****
+22:25:55.992 [main] INFO  test_case.TC001 - **** 2nd Course Card is Clicked ****
+22:26:11.370 [main] INFO  test_case.TC001 - **** Title, Rating and Duration of 2nd Course is Printed ****
+22:26:19.755 [main] INFO  test_case.TC001 - **** Navigated to Main Page ****
+22:26:19.977 [main] INFO  test_case.TC001 - **** Search Bar is Clicked  ****
+22:26:25.294 [main] INFO  test_case.TC001 - **** Language Learning is Searched ****
+22:26:27.285 [main] INFO  test_case.TC001 - **** SeeMore is Clicked ****
+22:26:31.579 [main] INFO  test_case.TC001 - **** List of Languages and their Count is Printed ****
+22:26:31.810 [main] INFO  test_case.TC001 - **** Language box is Closed ****
+22:26:32.399 [main] INFO  test_case.TC001 - **** List of Levels and their Count is Printed ****
+22:26:44.420 [main] INFO  test_case.TC001 - **** For Enterprises is Clicked ****
+22:26:49.298 [main] INFO  test_case.TC001 - **** Click Offer is Clicked ****
+22:26:54.349 [main] INFO  test_case.TC001 - **** Course is Clicked ****
+22:26:59.422 [main] INFO  test_case.TC001 - **** Form is Submitted Successfully ****
+22:27:02.214 [main] INFO  test_case.TC001 - **** Error Message is Printed ****
+22:30:27.813 [main] INFO  test_case.TC003 - **** For Enterprises is Clicked ****
+22:30:39.252 [main] INFO  test_case.TC003 - **** Click Offer is Clicked ****
+22:30:44.931 [main] INFO  test_case.TC003 - **** Course is Clicked ****
+22:30:51.381 [main] INFO  test_case.TC003 - **** Form is Submitted Successfully ****
+22:30:54.278 [main] INFO  test_case.TC003 - **** Error Message is Printed ****
+23:27:27.359 [main] INFO  test_case.TC003 - **** For Enterprises is Clicked ****
+23:27:37.869 [main] INFO  test_case.TC003 - **** Click Offer is Clicked ****
+23:27:55.561 [main] INFO  test_case.TC003 - **** Course is Clicked ****
+23:28:16.403 [main] INFO  test_case.TC003 - **** Form is Submitted Successfully ****
+23:28:27.987 [main] INFO  test_case.TC003 - **** Error Message is Printed ****
+23:31:04.636 [main] INFO  test_case.TC003 - **** Click Offer is Clicked ****
+23:31:20.142 [main] INFO  test_case.TC003 - **** Course is Clicked ****
+23:31:37.632 [main] INFO  test_case.TC003 - **** Form is Submitted Successfully ****
+23:31:41.465 [main] INFO  test_case.TC003 - **** Error Message is Printed ****
+00:16:26.438 [main] INFO  test_case.TC001 - **** Search button is clicked and Web Development is Searched ****
+00:16:27.847 [main] INFO  test_case.TC001 - **** English Checkbox is Selected ****
+00:16:33.267 [main] INFO  test_case.TC001 - **** Beginner Checkbox is Selected ****
+00:16:35.912 [main] INFO  test_case.TC001 - **** 1st Course Card is Clicked ****
+00:17:37.780 [main] INFO  test_case.TC001 - **** Title, Rating and Duration of 1st Course is Printed ****
+00:17:43.060 [main] INFO  test_case.TC001 - **** 2nd Course Card is Clicked ****
+00:17:57.083 [main] INFO  test_case.TC001 - **** Title, Rating and Duration of 2nd Course is Printed ****
+00:18:10.994 [main] INFO  test_case.TC001 - **** Navigated to Main Page ****
+00:18:12.465 [main] INFO  test_case.TC001 - **** Search Bar is Clicked  ****
+00:18:23.416 [main] INFO  test_case.TC001 - **** Language Learning is Searched ****
+00:18:24.959 [main] INFO  test_case.TC001 - **** SeeMore is Clicked ****
+00:18:41.370 [main] INFO  test_case.TC001 - **** List of Languages and their Count is Printed ****
+00:18:42.176 [main] INFO  test_case.TC001 - **** Language box is Closed ****
+00:18:52.083 [main] INFO  test_case.TC001 - **** List of Levels and their Count is Printed ****
+00:19:14.636 [main] INFO  test_case.TC001 - **** For Enterprises is Clicked ****
+00:19:38.172 [main] INFO  test_case.TC001 - **** Click Offer is Clicked ****
+00:20:55.445 [main] INFO  test_case.TC001 - **** Course is Clicked ****
+00:21:13.450 [main] INFO  test_case.TC001 - **** Form is Submitted Successfully ****
+00:21:17.470 [main] INFO  test_case.TC001 - **** Error Message is Printed ****
+00:37:45.907 [TestNG-tests-2] INFO  test_case.TC002 - **** Navigated to Main Page ****
+00:37:46.574 [TestNG-tests-2] INFO  test_case.TC002 - **** Search Bar is Clicked  ****
+00:37:54.668 [TestNG-tests-1] INFO  test_case.TC002 - **** Search button is clicked and Web Development is Searched ****
+00:37:58.036 [TestNG-tests-1] INFO  test_case.TC002 - **** English Checkbox is Selected ****
+00:38:00.881 [TestNG-tests-2] INFO  test_case.TC002 - **** Language Learning is Searched ****
+00:38:02.641 [TestNG-tests-1] INFO  test_case.TC002 - **** Beginner Checkbox is Selected ****
+00:38:05.802 [TestNG-tests-1] INFO  test_case.TC002 - **** 1st Course Card is Clicked ****
+00:46:22.268 [TestNG-tests-1] INFO  test_case.TC001 - **** For Enterprises is Clicked ****
+16:18:28.688 [main] INFO  test_case.TC001 - **** Search button is clicked and Web Development is Searched ****
+16:18:30.029 [main] INFO  test_case.TC001 - **** English Checkbox is Selected ****
+16:18:30.431 [main] INFO  test_case.TC001 - **** Beginner Checkbox is Selected ****
+16:18:34.155 [main] INFO  test_case.TC001 - **** 1st Course Card is Clicked ****
+16:18:48.310 [main] INFO  test_case.TC001 - **** Title, Rating and Duration of 1st Course is Printed ****
+16:18:49.519 [main] INFO  test_case.TC001 - **** 2nd Course Card is Clicked ****
+16:19:06.375 [main] INFO  test_case.TC001 - **** Title, Rating and Duration of 2nd Course is Printed ****
+16:19:18.262 [main] INFO  test_case.TC001 - **** Navigated to Main Page ****
+16:19:18.597 [main] INFO  test_case.TC001 - **** Search Bar is Clicked  ****
+16:19:26.499 [main] INFO  test_case.TC001 - **** Language Learning is Searched ****
+16:19:30.123 [main] INFO  test_case.TC001 - **** SeeMore is Clicked ****
+16:19:36.066 [main] INFO  test_case.TC001 - **** List of Languages and their Count is Printed ****
+16:19:36.417 [main] INFO  test_case.TC001 - **** Language box is Closed ****
+16:19:37.721 [main] INFO  test_case.TC001 - **** List of Levels and their Count is Printed ****
+16:19:51.981 [main] INFO  test_case.TC001 - **** For Enterprises is Clicked ****
+16:20:00.046 [main] INFO  test_case.TC001 - **** Click Offer is Clicked ****
+16:20:11.755 [main] INFO  test_case.TC001 - **** Course is Clicked ****
+16:20:20.752 [main] INFO  test_case.TC001 - **** Form is Submitted Successfully ****
+16:20:24.109 [main] INFO  test_case.TC001 - **** Error Message is Printed ****
+17:36:30.485 [main] INFO  test_case.TC001 - **** Search button is clicked and Web Development is Searched ****
+17:36:31.694 [main] INFO  test_case.TC001 - **** English Checkbox is Selected ****
+17:36:35.280 [main] INFO  test_case.TC001 - **** Beginner Checkbox is Selected ****
+17:36:37.933 [main] INFO  test_case.TC001 - **** 1st Course Card is Clicked ****
+17:36:48.988 [main] INFO  test_case.TC001 - **** Title, Rating and Duration of 1st Course is Printed ****
+17:36:49.800 [main] INFO  test_case.TC001 - **** 2nd Course Card is Clicked ****
+17:37:00.966 [main] INFO  test_case.TC001 - **** Title, Rating and Duration of 2nd Course is Printed ****
+17:37:06.234 [main] INFO  test_case.TC001 - **** Navigated to Main Page ****
+17:37:08.330 [main] INFO  test_case.TC001 - **** Search Bar is Clicked  ****
+17:37:15.720 [main] INFO  test_case.TC001 - **** Language Learning is Searched ****
+17:37:16.842 [main] INFO  test_case.TC001 - **** SeeMore is Clicked ****
+17:37:23.341 [main] INFO  test_case.TC001 - **** List of Languages and their Count is Printed ****
+17:37:23.651 [main] INFO  test_case.TC001 - **** Language box is Closed ****
+17:37:24.500 [main] INFO  test_case.TC001 - **** List of Levels and their Count is Printed ****
+17:37:34.739 [main] INFO  test_case.TC001 - **** For Enterprises is Clicked ****
+17:37:40.861 [main] INFO  test_case.TC001 - **** Click Offer is Clicked ****
+17:37:48.674 [main] INFO  test_case.TC001 - **** Course is Clicked ****
+17:37:59.194 [main] INFO  test_case.TC001 - **** Form is Submitted Successfully ****
+17:38:02.379 [main] INFO  test_case.TC001 - **** Error Message is Printed ****
+22:10:06.479 [main] INFO  test_case.TC001 - **** Search button is clicked and Web Development is Searched ****
+22:10:07.698 [main] INFO  test_case.TC001 - **** English Checkbox is Selected ****
+22:10:07.982 [main] INFO  test_case.TC001 - **** Beginner Checkbox is Selected ****
+22:10:10.471 [main] INFO  test_case.TC001 - **** 1st Course Card is Clicked ****
+22:10:21.809 [main] INFO  test_case.TC001 - **** Title, Rating and Duration of 1st Course is Printed ****
+22:10:22.787 [main] INFO  test_case.TC001 - **** 2nd Course Card is Clicked ****
+22:10:35.015 [main] INFO  test_case.TC001 - **** Title, Rating and Duration of 2nd Course is Printed ****
+22:10:46.265 [main] INFO  test_case.TC001 - **** Navigated to Main Page ****
+22:10:46.503 [main] INFO  test_case.TC001 - **** Search Bar is Clicked  ****
+22:10:55.287 [main] INFO  test_case.TC001 - **** Language Learning is Searched ****
+22:10:58.542 [main] INFO  test_case.TC001 - **** SeeMore is Clicked ****
+22:11:08.237 [main] INFO  test_case.TC001 - **** List of Languages and their Count is Printed ****
+22:11:08.760 [main] INFO  test_case.TC001 - **** Language box is Closed ****
+22:11:09.813 [main] INFO  test_case.TC001 - **** List of Levels and their Count is Printed ****
+22:11:29.127 [main] INFO  test_case.TC001 - **** For Enterprises is Clicked ****
+22:11:41.636 [main] INFO  test_case.TC001 - **** Click Offer is Clicked ****
+22:12:09.198 [main] INFO  test_case.TC001 - **** Course is Clicked ****
+22:12:37.560 [main] INFO  test_case.TC001 - **** Form is Submitted Successfully ****
+22:12:41.558 [main] INFO  test_case.TC001 - **** Error Message is Printed ****

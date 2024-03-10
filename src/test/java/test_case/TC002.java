@@ -10,7 +10,7 @@ import test_base.BaseClass;
 public class TC002  extends BaseClass{
 	
 	@Test(priority=1)
-	public void searching() {
+	public void search_languageLearning() {
 		Module2 m2 = new Module2(driver) ;
 		m2.switchMain();
 		logger.info("**** Navigated to Main Page ****");
@@ -21,7 +21,7 @@ public class TC002  extends BaseClass{
 	}
 	
 	@Test(priority=2)
-	public void getLangLvl() throws InterruptedException, IOException {
+	public void get_Languages_Levels_and_count() throws InterruptedException, IOException {
 		Module2 m2 = new Module2(driver) ;
 		m2.clickSeeMore();
 		logger.info("**** SeeMore is Clicked ****");

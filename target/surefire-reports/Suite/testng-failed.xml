@@ -2,17 +2,38 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
-    <listener class-name="Utilities.ExtentReportManager"/>
+    <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="test_case.TC001">
+        <methods>
+          <include name="searching"/>
+          <include name="tearDown"/>
+          <include name="getDriver"/>
+          <include name="clicking"/>
+          <include name="course2"/>
+          <include name="course1"/>
+        </methods>
+      </class> <!-- test_case.TC001 -->
+      <class name="test_case.TC002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getDriver"/>
+          <include name="getLangLvl"/>
+          <include name="searching"/>
+        </methods>
+      </class> <!-- test_case.TC002 -->
       <class name="test_case.TC003">
         <methods>
+          <include name="clickenterprises"/>
           <include name="fillForm"/>
           <include name="tearDown"/>
           <include name="getDriver"/>
+          <include name="clickcourse"/>
+          <include name="clickoffer"/>
         </methods>
       </class> <!-- test_case.TC003 -->
     </classes>

@@ -27,6 +27,7 @@ public class ExcelUtils {
 		XSSFRow row = sheet.getRow(rownum);   
 		XSSFCell cell = row.createCell(colnum); 
 		cell.setCellValue(data); 
+		
 		FileOutputStream fo = new FileOutputStream(System.getProperty("user.dir")+"\\TestData\\Write.xlsx");
 		book.write(fo);
 		book.close();
