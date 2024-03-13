@@ -1,4 +1,4 @@
-# Problem Statement : Identify Courses
+Problem Statement : Identify Courses
 
 Search and display all web development courses 
 1. Should be for beginners level.
@@ -7,7 +7,7 @@ Search and display all web development courses
 (Suggested Site: coursera.org however  you are free to choose any other legitimate  site)
 
 
-# Detailed Description: 
+Detailed Description: 
 
 1. Search for web development courses for Beginners level & English Language and extract the course names, total learning hours & rating for first 2 courses
 2. Look for Language Learning; Extract all the languages and different levels with its total count & display them
@@ -15,89 +15,91 @@ Search and display all web development courses
 (Suggested Site: coursera.org however  you are free to choose any other legitimate  site)
 
 
-# Key Automation Scope
+Key Automation Scope
 
-- Handling different browser windows, search option
-- Extract multiple drop down list items & store in collections
-- Navigating back to home page
-- Filling form (in different objects in web page)
-- Capture warning message
-- Scrolling down in web page
-
-
-# Steps To Execute
-
-- Unzip the folder
-- On eclipse, goto file-> import-> select maven-> click on existing maven project->next-> browse the location where u unzip the folder-> click on finish
-- Now go to the testng.xml file and run as TestNGSuite.
-- Now the file will Execute and we get the expected output as shown below.
-- Now go to TestRunner.java file and run as JUnit test.
-- Now the file will Execute in Cucumber and we get the expected output as shown below.
+Handling different browser windows, search option
+Extract multiple drop down list items & store in collections
+Navigating back to home page
+Filling form (in different objects in web page)
+Capture warning message
+Scrolling down in web page
 
 
-# Files Description
+*********************************STEPS TO EXECUTE*********************************
+
+-> unzip the folder
+-> On eclipse, goto file-> import-> select maven-> click on existing maven project->next-> browse the location where u unzip the folder-> click on finish
+-> Now go to the testng.xml file and run as TestNGSuite.
+-> Now the file will Execute and we get the expected output as shown below.
+-> Now go to TestRunner.java file and run as JUnit test.
+-> Now the file will Execute in Cucumber and we get the expected output as shown below.
+
+
+*********************************FILES DESCRIPTION*********************************
  
-**1. src/test/java** - There are 8 packages present in this folder.
+1. src/test/java - There are 8 packages present in this folder.
 
-- pageobject     : Page Object containing different class contains which are BasePage, Module1, Module2, Module3, Module3_1
+-> pageobject : Page Object containing different class contains which are BasePage, Module1, Module2, Module3, Module3_1
 
-- test_base      : In this package we have BaseClass.java is our main project file in which we Firstly invoke the selected browser and generate the report file in html format and store it in report opening Coursera website [Cousera](https://www.coursera.org/) and closing the browser
+-> test_base:In this package we have BaseClass.java is our main project file in which we Firstly invoke the selected browser and generate the report file in html format and store it in report opening Coursera website [Cousera](https://www.coursera.org/) and closing the browser
 
-- test_cases     : In this package we have TC001, TC002, TC003 java files which extends baseClass.java where the methods are present which will login to the page and verify and validate all the testCases.
+-> test_cases:In this package we have TC001, TC002, TC003 java files which extends baseClass.java where the methods are present which will login to the page and verify and validate all the testCases.
 
-- utilities      : In the utilities package all the read, write work of and extent report work is done.
+-> utilities: In the utilities package all the read, write work of and extent report work is done.
  
-- TestRunner     : In this package we have TestRunner.java file where we include feature file path and cucumber plugins to generate cucumber report.
+-> TestRunner : In this package we have TestRunner.java file where we include feature file path and cucumber plugins to generate cucumber report.
 
-- Cucumber.Step  : This package contains StepsDefinition.java which contains the testSteps to execute the project in Cucumber and Hooks.java contains the driver setup , screenshots and Closing the browser.
+-> Cucumber.Step : This package contains StepsDefinition.java which contains the testSteps to execute the project in Cucumber and Hooks.java contains the driver setup , screenshots and Closing the browser.
 
-- Factory        : In this package we have CucumberBaseClass.java file in which we invoke the browser initialization, we also added logger and properties method to include logs and access config.properties file.
+-> Factory : In this package we have CucumberBaseClass.java file in which we invoke the browser initialization, we also added logger and properties method to include logs and access config.properties file.
 
-- IdentifyCourse : This package contains the selenium file of the project
+-> IdentifyCourse : This package contains the selenium file of the project
 
-**2. src/test/resources** - In this folder, there are three files
+
+2. src/test/resources- In this folder, there are three files
  
--  config.properties           : This file is used to store the reusable values such as apprl,browser name and os name.
+->  config.properties  : This file is used to store the reusable values such as apprl,browser name and os name.
  
--  log4j2.xml                  : This file is used to generate log informations about the execution of test cases.
+->  log4j2.xml  : This file is used to generate log informations about the execution of test cases.
  
--  extent.properties           : This file is used to generate the extentReport for the execution in cucumber framework.
+->  extent.properties  : This file is used to generate the extentReport for the execution in cucumber framework.
  
-**3. JRE System Library**      : In this File we have all dependencies of JAR.files.         
+3. JRE System Library: In this File we have all dependencies of JAR.files.         
  
-**4. Maven Dependencies**      : In this File we have all the directory on the local machine, where all the project artifacts are stored. When a Maven build is executed, Maven automatically downloads all the dependency jars into the local repository. Usually, this directory is named.
+4. Maven Dependencies: In this File we have all the directory on the local machine, where all the project artifacts are stored. When a Maven build is executed, Maven automatically downloads all the dependency jars into the local repository. Usually, this directory is named.
  
-**5. Report**                  : In this folder the Test-Report-YYYY.MM.DD.html is present which is the report of the project
+5. Report: In this folder the Test-Report-YYYY.MM.DD.html is present which is the report of the project
  
-**6. ScreenShots**             : There are 9 images, 1 clickcourse.png, 2 clickenterprises.png, 3 clicking.png, 4 clickoffer.png, 5 course1.png, 6 course2.png, 7 fillForm.png, 8 getLangLvl.png, 9 searching.png 
+6. ScreenShots : There are 9 images, 1 clickcourse.png, 2 clickenterprises.png, 3 clicking.png, 4 clickoffer.png, 5 course1.png, 6 course2.png, 7 fillForm.png, 8 getLangLvl.png, 9 searching.png 
 
-**7. src**                     : In this, there are two folders
-                                - main:It is an empty folder
-                                - test:It is an empty folder
-         
-**8. target**                  : It is an empty folder
-
-**9. Feature Files**           : In this folder we have all the feature files with .feature extension which needs to be invoked while excuting the project in cucumber framework.
+7. src: In this, there are two folders
+	-main:It is an empty folder
+	-test:It is an empty folder
  
-**10. Logs**                   : In this folder logs are present which is generated while executing the project.
+8. target: It is an empty folder
 
-**11. TestData**               : In this folder we have two files
-                                - Read  : In this excel file all the data which need to be passed to required WebElements are stored.
-                                - Write : After the execution of project the result will be stored.
-                      	
-**12. pom.xml**                 : The pom.xml file contains information of project and configuration information for the maven to build the project such as dependencies,build directory, source directory, test source directory, plugin, goals etc. Maven reads the pom.xml file, then executes the goal.
-
-**13. testng.xml**              : this file contain suit from where the compilation of project begins.
-
-**14. CrossBrowserTestNG.xml**	: In this file test classes are defined for cross browser execution.
+9. Feature Files : In this folder we have all the feature files with .feature extension which needs to be invoked while excuting the project in cucumber framework.
  
-***15. MasterTestNG.xml***		  : In this file test classes are defined for executing the project in only one browser
+10. Logs : In this folder logs are present which is generated while executing the project.
+
+11. TestData : In this folder we have two files
+	-Read  : In this excel file all the data which need to be passed to required WebElements are stored.
+	-Write  : After the execution of project the result will be stored.
+	
+12. pom.xml: The pom.xml file contains information of project and configuration information for the maven to build the project such as dependencies,build directory, source directory, test source directory, plugin, goals etc. Maven reads the pom.xml file, then executes the goal.
+
+13. testng.xml : this file contain suit from where the compilation of project begins.
+
+14. CrossBrowserTestNG.xml : In this file test classes are defined for cross browser execution.
  
-***16. run.bat***			          : This file is included to run the project in command prompt
+15. MasterTestNG.xml : In this file test classes are defined for executing the project in only one browser
+ 
+16. run.bat : This file is included to run the project in command prompt
+ 
 
-# OUTPUT
+*********************************OUTPUT*********************************
 
-## ***TestNG***
+***TestNG***
 
 Module 1 : Search for web development courses for Beginners level & English Language and extract the course names, total learning hours & rating for first 2 courses
 
@@ -152,14 +154,14 @@ Module 3 : In Home page, go to "For Enterprise"; Look into Courses for Campus un
 
 Error Message : Please enter your work email address
 
-### ===============================================
+===============================================
 Suite
 Total tests run: 10, Passes: 10, Failures: 0, Skips: 0
-### ===============================================
+===============================================
 
 
 
-## ***Cucumber***
+***Cucumber***
 
 @sanity @regression
 Scenario: Get Details of Web development courses                                           # Features/IdentifyingCourses.feature:4
